@@ -1,0 +1,15 @@
+#summary This is to report our progress so far.
+
+Up to this point the team has made good progress. The first thing we did was to generate square pulses. This is can be accomplished by using the clock and dividing the 50 Mhz clock frequency into smaller pieces and using this to create waves. This was relatively straightforward and some helpful example code was found at (http://www.johnloomis.org/digitallab/audio/audio2/audio2.qdoc.html) and also a similar project that was done by Aaron Pittenger and Rachel Grady in the fall of 2010.
+
+After creating the waves, the johnloomis code was modified to be used in the audio output. John Loomis does this by using I2C to initialize the audio codec and also a DAC converter to output the sound.
+
+To output the specific frequencies, a table was found (http://www.math.niu.edu/~rusin/uses-math/music/frequencies). This allowed for a tuning of sorts to produce the notes associated with a typical instrument. It is possible to produce whatever frequency desired but it may not sound good to the human ear. 
+
+The code that was downloaded had a predetermined 36 notes for the square waves. This would correspond to 3 octaves on the keyboard (7 white notes and 5 black notes per octave). We thought the bottom end was too low so we moved the lowest note up one octave. It also had 2 volume levels. This was accomplished by changing the amplitude of the peak of the square wave. If the switch was on/off it would feed it the corresponding volume amplitude.
+
+We weren't satisfied with a square wave so we decided to tackle the sine wave next. In the John Loomis code it produces a sine wave with a number of discrete data points. This is the base with which you create the sounds. Essentially, all you are doing is cycling through these points. If you want to change the frequency of the sine wave you must simply cycle through these points at a faster rate. 
+
+Next the sine wave was broken up into the 36 different frequencies as well. This allows the user to use either a sine or square wave by flipping switch. This was a bit more challenging because it would have to be programmed manually. A similar volume function was added here. This took more effort because the values had to be written to a table. The initial sine wave was taken and the amplitude was reduced by one half.
+
+The final step here is to implement the display on the monitor. On the monitor it would display a keyboard. When the user presses a button it would show the corresponding key on the monitor. VGA Lab1 by John loomis was a very helpful reference here. (http://www.johnloomis.org/digitallab/vgalab/vgalab1/vgalab1.html) 
