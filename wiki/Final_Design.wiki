@@ -30,5 +30,21 @@ Since we decided to use the keyboard as our input for this project, how to let t
 
 The final step here is to implement the display on the monitor. On here we want it to display a piano keyboard. When the user presses a button on the computer keyboard it would show the corresponding key on the monitor. VGA Lab1 by John Loomis was a very helpful reference here for drawing rectangles (http://www.johnloomis.org/digitallab/vgalab/vgalab1/vgalab1.html). 
 
+*Conclusion*
+
+By doing this project, we learned how to use the peripherals of the DE2 board. We also learned how to link different parts together and make them work properly. From this project, we realized that there are a lot of works behind those "simple" things. This project also made us realized that the hardware can really limit the outcomes of the whole project. 
+
+*What else we can do*
+
+There are couple improvements we can do if we have time.
+
+1. We can try to use external clock to generate frequencies that are closer to the accurate frequencies, so that the sounds can be more precisely.
+
+2. We can try to build some filters inside the board to filter out the frequencies we do not want, so that the noisy can be eliminated to some extent, and will sounds cleaner.
+
+3. We can try to make monitor part better. Make it looks like a real piano and show some animation when key is pressed.
+
+4. We need to figure out the how johnloomis codes work. That will let us have a better understanding of the communication between different devices.  
+
 =Video Demonstration=
 http://www.youtube.com/watch?v=jRVPfyQ-fj4
