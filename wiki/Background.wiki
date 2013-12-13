@@ -1,1 +1,1 @@
-In this project we will use software and hardware to output sine and square sounds waves.
+In this project we will use software and hardware to output sine and square sound waves.
