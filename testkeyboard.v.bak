@@ -1,0 +1,97 @@
+// This is sort of a copy of the "testkeytolcd.v" file.
+// The .v files that need to be included in the "helper
+// modules" folder are "oneshot.v" and "keyboard.v"
+// Keyboard input is a modified version of from John
+// Loomis's "ps2lab1" project
+
+module testkeyboard(
+	 
+		sw, key, clock50,
+		ledr, ledg,
+		hex0, hex1, hex2, hex3, hex4, hex5, hex6, hex7,
+		keyboard_clk, keyboard_data,
+		LCD_DATA, LCD_ON, LCD_BLON, LCD_RW, LCD_EN, LCD_RS 
+);
+
+	// Inputs/outputs
+			// System inputs
+			input[17:0] sw;
+			input[3:0] key;
+			input clock50;
+
+			// System outputs
+			output[17:0] ledr;
+			output[8:0] ledg;
+
+			// Hex display outputs
+			output[6:0] hex0;
+			output[6:0] hex1;
+			output[6:0] hex2;
+			output[6:0] hex3;
+			output[6:0] hex4;
+			output[6:0] hex5;
+			output[6:0] hex6;
+			output[6:0] hex7;
+
+			// Keyboard inputs
+			input keyboard_clk;
+			input keyboard_data;
+
+			// 16x2 LCD display outputs
+			output[7:0] LCD_DATA;
+			output LCD_ON; // LCD Power ON/OFF
+			output LCD_BLON;  // LCD Backlight ON/OFF
+			output LCD_RW; // LCD Read/Write Select, 0 = Write, 1 = Read
+			output LCD_EN; // LCD Enable
+			output LCD_RS; // LCD Command/Data Select, 0 = Command, 1 = Data
+			
+	assign ledr = sw;
+	assign ledg = 9'b0_0000_0000;
+	wire reset = 1'b0;
+	wire read, scan_ready;
+	wire [7:0] scan_code;
+	reg [7:0] keyhistory[1:2];
+	reg [15:0] scanhistory;
+	reg [15:0] keydata;
+	
+	// beginning of keyboard code ------------------------------------------
+	// copy everything below. keydata[15:0] is the key data (ex: 16'hF032)
+	oneshot pulser(
+		.pulse_out(read),
+		.trigger_in(scan_ready),
+		.clk(clock50)
+	);
+
+	keyboard kbd(
+	  .keyboard_clk(keyboard_clk),
+	  .keyboard_data(keyboard_data),
+	  .clock50(clock50),
+	  .reset(reset),
+	  .read(read),
+	  .scan_ready(scan_ready),
+	  .scan_code(scan_code)
+	);
+	
+	always @(posedge scan_ready)
+	begin
+		keyhistory[2] <= keyhistory[1];
+		keyhistory[1] <= scan_code;
+	end
+	
+	always @(*)
+	begin
+		keydata[15:8] = keyhistory[2];
+		keydata[7:0] = keyhistory[1];
+	end
+	// end of keyboard code ------------------------------------------------
+	
+	hexDisplay disp0(keydata[3:0], hex0);
+	hexDisplay disp1(keydata[7:4], hex1);
+	hexDisplay disp2(keydata[11:8], hex2);
+	hexDisplay disp3(keydata[15:12], hex3);
+	blankHexDisplay disp4(hex4);
+	blankHexDisplay disp5(hex5);
+	blankHexDisplay disp6(hex6);
+	blankHexDisplay disp7(hex7);
+
+endmodule

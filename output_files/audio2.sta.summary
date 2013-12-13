@@ -1,0 +1,1117 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_CSDF2'
+Slack : -16.497
+TNS   : -131.976
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_C2'
+Slack : -16.434
+TNS   : -131.472
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_D2'
+Slack : -15.683
+TNS   : -125.464
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_DSEF2'
+Slack : -15.131
+TNS   : -121.048
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_E2'
+Slack : -14.079
+TNS   : -112.632
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_F2'
+Slack : -13.692
+TNS   : -109.536
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_FSGF2'
+Slack : -13.361
+TNS   : -106.888
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_G2'
+Slack : -11.750
+TNS   : -94.000
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_A2'
+Slack : -10.978
+TNS   : -87.824
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_GSAF2'
+Slack : -10.919
+TNS   : -87.352
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_ASBF2'
+Slack : -10.357
+TNS   : -82.856
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_B2'
+Slack : -9.563
+TNS   : -76.504
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_C3_2'
+Slack : -8.701
+TNS   : -69.608
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_CSDF3'
+Slack : -8.392
+TNS   : -67.136
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_D3_2'
+Slack : -7.340
+TNS   : -58.720
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_DSEF3'
+Slack : -6.856
+TNS   : -54.848
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_E3_2'
+Slack : -5.771
+TNS   : -46.168
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_FSGF3'
+Slack : -5.329
+TNS   : -42.632
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_F3'
+Slack : -5.221
+TNS   : -41.768
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_G3'
+Slack : -4.212
+TNS   : -33.696
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -3.783
+TNS   : -2522.990
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_A3'
+Slack : -3.020
+TNS   : -24.160
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_GSAF3_2'
+Slack : -2.968
+TNS   : -23.744
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_D3_1'
+Slack : -2.889
+TNS   : -55.131
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_1M'
+Slack : -2.734
+TNS   : -428.896
+
+Type  : Slow Model Setup 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : -2.711
+TNS   : -92.197
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_C3_1'
+Slack : -2.670
+TNS   : -50.402
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_GSAF3_1'
+Slack : -2.650
+TNS   : -49.315
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_E3_1'
+Slack : -2.535
+TNS   : -47.599
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_media'
+Slack : -2.123
+TNS   : -34.237
+
+Type  : Slow Model Setup 'testkeyboard:keyboard_input|keyboard:kbd|keyboard_clk_filtered'
+Slack : -1.891
+TNS   : -31.274
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_ASBF3'
+Slack : -1.707
+TNS   : -13.656
+
+Type  : Slow Model Setup 'charlier:charlier|clkslow'
+Slack : -1.546
+TNS   : -7.287
+
+Type  : Slow Model Setup 'charliel:charliel|clkslow'
+Slack : -1.427
+TNS   : -7.538
+
+Type  : Slow Model Setup 'testkeyboard:keyboard_input|keyboard:kbd|scan_ready'
+Slack : -1.391
+TNS   : -6.674
+
+Type  : Slow Model Setup 'badroml:badroml|clkslow'
+Slack : -1.298
+TNS   : -7.591
+
+Type  : Slow Model Setup 'badromr:badromr|clkslow'
+Slack : -1.254
+TNS   : -7.525
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_B3'
+Slack : -1.218
+TNS   : -9.744
+
+Type  : Slow Model Setup 'sine_wave_synthesizer:sinsnd|clk_1Hz'
+Slack : -1.133
+TNS   : -9.064
+
+Type  : Slow Model Setup 'testkeyboard:keyboard_input|keyboard:kbd|clock'
+Slack : -0.747
+TNS   : -0.788
+
+Type  : Slow Model Setup 'p1|altpll_component|pll|clk[1]'
+Slack : -0.132
+TNS   : -0.132
+
+Type  : Slow Model Setup 'audio_clock:u4|oAUD_BCK'
+Slack : -0.061
+TNS   : -0.107
+
+Type  : Slow Model Setup 'p1|altpll_component|pll|clk[0]'
+Slack : 35.317
+TNS   : 0.000
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_1Hz'
+Slack : -14.831
+TNS   : -116.513
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_B3'
+Slack : -14.746
+TNS   : -116.523
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_ASBF3'
+Slack : -14.257
+TNS   : -113.102
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_GSAF3_2'
+Slack : -12.996
+TNS   : -102.977
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_A3'
+Slack : -12.944
+TNS   : -102.302
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_G3'
+Slack : -11.752
+TNS   : -92.718
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_F3'
+Slack : -10.743
+TNS   : -84.989
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_FSGF3'
+Slack : -10.635
+TNS   : -83.833
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_E3_2'
+Slack : -10.193
+TNS   : -80.284
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_DSEF3'
+Slack : -9.108
+TNS   : -71.830
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_D3_2'
+Slack : -8.624
+TNS   : -68.264
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_CSDF3'
+Slack : -7.572
+TNS   : -59.576
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_C3_2'
+Slack : -7.263
+TNS   : -57.314
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_B2'
+Slack : -6.401
+TNS   : -49.073
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_ASBF2'
+Slack : -5.607
+TNS   : -42.721
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_GSAF2'
+Slack : -5.045
+TNS   : -38.225
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_A2'
+Slack : -4.986
+TNS   : -37.753
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_G2'
+Slack : -4.214
+TNS   : -31.577
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_media'
+Slack : -3.539
+TNS   : -3.539
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_FSGF2'
+Slack : -2.603
+TNS   : -18.689
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.570
+TNS   : -22.256
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_1M'
+Slack : -2.438
+TNS   : -31.440
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_F2'
+Slack : -2.272
+TNS   : -16.041
+
+Type  : Slow Model Hold 'testkeyboard:keyboard_input|keyboard:kbd|keyboard_clk_filtered'
+Slack : -2.234
+TNS   : -2.234
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_E3_1'
+Slack : -2.187
+TNS   : -2.187
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_GSAF3_1'
+Slack : -2.178
+TNS   : -2.178
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_C3_1'
+Slack : -2.062
+TNS   : -2.062
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_D3_1'
+Slack : -2.012
+TNS   : -2.012
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_E2'
+Slack : -1.885
+TNS   : -12.945
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_DSEF2'
+Slack : -0.833
+TNS   : -4.529
+
+Type  : Slow Model Hold 'testkeyboard:keyboard_input|keyboard:kbd|clock'
+Slack : -0.685
+TNS   : -0.685
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_D2'
+Slack : -0.281
+TNS   : -0.281
+
+Type  : Slow Model Hold 'p1|altpll_component|pll|clk[1]'
+Slack : -0.093
+TNS   : -0.093
+
+Type  : Slow Model Hold 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'audio_clock:u4|oAUD_BCK'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'badroml:badroml|clkslow'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'charliel:charliel|clkslow'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'charlier:charlier|clkslow'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'p1|altpll_component|pll|clk[0]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_C2'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'sine_wave_synthesizer:sinsnd|clk_CSDF2'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'testkeyboard:keyboard_input|keyboard:kbd|scan_ready'
+Slack : 0.531
+TNS   : 0.000
+
+Type  : Slow Model Hold 'badromr:badromr|clkslow'
+Slack : 0.540
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'p1|altpll_component|pll|clk[0]'
+Slack : -4.427
+TNS   : -95.330
+
+Type  : Slow Model Recovery 'p1|altpll_component|pll|clk[1]'
+Slack : -3.721
+TNS   : -52.094
+
+Type  : Slow Model Recovery 'audio_clock:u4|oAUD_BCK'
+Slack : -2.580
+TNS   : -10.320
+
+Type  : Slow Model Recovery 'testkeyboard:keyboard_input|keyboard:kbd|ready_set'
+Slack : -1.712
+TNS   : -1.712
+
+Type  : Slow Model Removal 'testkeyboard:keyboard_input|keyboard:kbd|ready_set'
+Slack : 2.482
+TNS   : 0.000
+
+Type  : Slow Model Removal 'audio_clock:u4|oAUD_BCK'
+Slack : 3.350
+TNS   : 0.000
+
+Type  : Slow Model Removal 'p1|altpll_component|pll|clk[1]'
+Slack : 3.496
+TNS   : 0.000
+
+Type  : Slow Model Removal 'p1|altpll_component|pll|clk[0]'
+Slack : 4.027
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -879.380
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_1M'
+Slack : -0.500
+TNS   : -189.000
+
+Type  : Slow Model Minimum Pulse Width 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : -0.500
+TNS   : -56.000
+
+Type  : Slow Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|keyboard_clk_filtered'
+Slack : -0.500
+TNS   : -23.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_C3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_D3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_E3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_GSAF3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_media'
+Slack : -0.500
+TNS   : -17.000
+
+Type  : Slow Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|scan_ready'
+Slack : -0.500
+TNS   : -16.000
+
+Type  : Slow Model Minimum Pulse Width 'badroml:badroml|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'badromr:badromr|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'charliel:charliel|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'charlier:charlier|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_A2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_A3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_ASBF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_ASBF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_B2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_B3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_C2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_C3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_CSDF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_CSDF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_D2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_D3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_DSEF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_DSEF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_E2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_E3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_F2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_F3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_FSGF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_FSGF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_G2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_G3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_GSAF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_GSAF3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|clock'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Slow Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_1Hz'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Slow Model Minimum Pulse Width 'audio_clock:u4|oAUD_BCK'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Slow Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|ready_set'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'p1|altpll_component|pll|clk[0]'
+Slack : 18.841
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'p1|altpll_component|pll|clk[1]'
+Slack : 26.777
+TNS   : 0.000
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_CSDF2'
+Slack : -6.615
+TNS   : -52.920
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_C2'
+Slack : -6.566
+TNS   : -52.528
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_D2'
+Slack : -6.278
+TNS   : -50.224
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_DSEF2'
+Slack : -6.041
+TNS   : -48.328
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_E2'
+Slack : -5.580
+TNS   : -44.640
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_F2'
+Slack : -5.415
+TNS   : -43.320
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_FSGF2'
+Slack : -5.294
+TNS   : -42.352
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_G2'
+Slack : -4.589
+TNS   : -36.712
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_A2'
+Slack : -4.263
+TNS   : -34.104
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_GSAF2'
+Slack : -4.226
+TNS   : -33.808
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_ASBF2'
+Slack : -4.008
+TNS   : -32.064
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_B2'
+Slack : -3.659
+TNS   : -29.272
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_C3_2'
+Slack : -3.275
+TNS   : -26.200
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_CSDF3'
+Slack : -3.159
+TNS   : -25.272
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_D3_2'
+Slack : -2.680
+TNS   : -21.440
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_DSEF3'
+Slack : -2.492
+TNS   : -19.936
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_E3_2'
+Slack : -2.007
+TNS   : -16.056
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_FSGF3'
+Slack : -1.859
+TNS   : -14.872
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_F3'
+Slack : -1.777
+TNS   : -14.216
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_G3'
+Slack : -1.341
+TNS   : -10.728
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -1.166
+TNS   : -671.776
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_A3'
+Slack : -0.854
+TNS   : -6.832
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_GSAF3_2'
+Slack : -0.803
+TNS   : -6.424
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_D3_1'
+Slack : -0.772
+TNS   : -13.773
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_C3_1'
+Slack : -0.738
+TNS   : -12.953
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_1M'
+Slack : -0.710
+TNS   : -101.442
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_E3_1'
+Slack : -0.693
+TNS   : -12.008
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_GSAF3_1'
+Slack : -0.677
+TNS   : -11.211
+
+Type  : Fast Model Setup 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : -0.623
+TNS   : -15.193
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_media'
+Slack : -0.431
+TNS   : -6.446
+
+Type  : Fast Model Setup 'testkeyboard:keyboard_input|keyboard:kbd|scan_ready'
+Slack : -0.391
+TNS   : -1.234
+
+Type  : Fast Model Setup 'testkeyboard:keyboard_input|keyboard:kbd|keyboard_clk_filtered'
+Slack : -0.366
+TNS   : -4.459
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_ASBF3'
+Slack : -0.265
+TNS   : -2.120
+
+Type  : Fast Model Setup 'p1|altpll_component|pll|clk[1]'
+Slack : -0.187
+TNS   : -0.187
+
+Type  : Fast Model Setup 'charlier:charlier|clkslow'
+Slack : -0.170
+TNS   : -0.272
+
+Type  : Fast Model Setup 'charliel:charliel|clkslow'
+Slack : -0.098
+TNS   : -0.189
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_B3'
+Slack : -0.073
+TNS   : -0.584
+
+Type  : Fast Model Setup 'badroml:badroml|clkslow'
+Slack : -0.032
+TNS   : -0.032
+
+Type  : Fast Model Setup 'badromr:badromr|clkslow'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Fast Model Setup 'sine_wave_synthesizer:sinsnd|clk_1Hz'
+Slack : -0.013
+TNS   : -0.104
+
+Type  : Fast Model Setup 'testkeyboard:keyboard_input|keyboard:kbd|clock'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Setup 'audio_clock:u4|oAUD_BCK'
+Slack : 0.511
+TNS   : 0.000
+
+Type  : Fast Model Setup 'p1|altpll_component|pll|clk[0]'
+Slack : 37.555
+TNS   : 0.000
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_1Hz'
+Slack : -6.357
+TNS   : -49.949
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_B3'
+Slack : -6.297
+TNS   : -49.866
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_ASBF3'
+Slack : -6.105
+TNS   : -48.561
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_GSAF3_2'
+Slack : -5.567
+TNS   : -44.230
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_A3'
+Slack : -5.516
+TNS   : -43.708
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_G3'
+Slack : -5.029
+TNS   : -39.795
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_F3'
+Slack : -4.593
+TNS   : -36.463
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_FSGF3'
+Slack : -4.511
+TNS   : -35.668
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_E3_2'
+Slack : -4.363
+TNS   : -34.479
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_DSEF3'
+Slack : -3.878
+TNS   : -30.700
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_D3_2'
+Slack : -3.690
+TNS   : -29.339
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_CSDF3'
+Slack : -3.211
+TNS   : -25.385
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_C3_2'
+Slack : -3.095
+TNS   : -24.545
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_B2'
+Slack : -2.711
+TNS   : -20.781
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_ASBF2'
+Slack : -2.362
+TNS   : -17.989
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_GSAF2'
+Slack : -2.144
+TNS   : -16.245
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_A2'
+Slack : -2.107
+TNS   : -15.949
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_media'
+Slack : -2.061
+TNS   : -2.061
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_G2'
+Slack : -1.781
+TNS   : -13.341
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.609
+TNS   : -14.020
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_1M'
+Slack : -1.465
+TNS   : -18.825
+
+Type  : Fast Model Hold 'testkeyboard:keyboard_input|keyboard:kbd|keyboard_clk_filtered'
+Slack : -1.375
+TNS   : -1.375
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_E3_1'
+Slack : -1.345
+TNS   : -1.345
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_GSAF3_1'
+Slack : -1.339
+TNS   : -1.339
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_C3_1'
+Slack : -1.303
+TNS   : -1.303
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_D3_1'
+Slack : -1.269
+TNS   : -1.269
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_FSGF2'
+Slack : -1.076
+TNS   : -7.701
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_F2'
+Slack : -0.955
+TNS   : -6.733
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_E2'
+Slack : -0.790
+TNS   : -5.413
+
+Type  : Fast Model Hold 'testkeyboard:keyboard_input|keyboard:kbd|clock'
+Slack : -0.396
+TNS   : -0.396
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_DSEF2'
+Slack : -0.329
+TNS   : -1.725
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_D2'
+Slack : -0.092
+TNS   : -0.092
+
+Type  : Fast Model Hold 'p1|altpll_component|pll|clk[1]'
+Slack : 0.072
+TNS   : 0.000
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_C2'
+Slack : 0.196
+TNS   : 0.000
+
+Type  : Fast Model Hold 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'audio_clock:u4|oAUD_BCK'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'badroml:badroml|clkslow'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'charliel:charliel|clkslow'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'charlier:charlier|clkslow'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'p1|altpll_component|pll|clk[0]'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'sine_wave_synthesizer:sinsnd|clk_CSDF2'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'testkeyboard:keyboard_input|keyboard:kbd|scan_ready'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast Model Hold 'badromr:badromr|clkslow'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'p1|altpll_component|pll|clk[0]'
+Slack : -2.678
+TNS   : -58.088
+
+Type  : Fast Model Recovery 'p1|altpll_component|pll|clk[1]'
+Slack : -2.358
+TNS   : -33.012
+
+Type  : Fast Model Recovery 'audio_clock:u4|oAUD_BCK'
+Slack : -1.375
+TNS   : -5.500
+
+Type  : Fast Model Recovery 'testkeyboard:keyboard_input|keyboard:kbd|ready_set'
+Slack : -0.712
+TNS   : -0.712
+
+Type  : Fast Model Removal 'testkeyboard:keyboard_input|keyboard:kbd|ready_set'
+Slack : 1.592
+TNS   : 0.000
+
+Type  : Fast Model Removal 'p1|altpll_component|pll|clk[1]'
+Slack : 2.243
+TNS   : 0.000
+
+Type  : Fast Model Removal 'audio_clock:u4|oAUD_BCK'
+Slack : 2.255
+TNS   : 0.000
+
+Type  : Fast Model Removal 'p1|altpll_component|pll|clk[0]'
+Slack : 2.491
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -879.380
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_1M'
+Slack : -0.500
+TNS   : -189.000
+
+Type  : Fast Model Minimum Pulse Width 'I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : -0.500
+TNS   : -56.000
+
+Type  : Fast Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|keyboard_clk_filtered'
+Slack : -0.500
+TNS   : -23.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_C3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_D3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_E3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_GSAF3_1'
+Slack : -0.500
+TNS   : -21.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_media'
+Slack : -0.500
+TNS   : -17.000
+
+Type  : Fast Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|scan_ready'
+Slack : -0.500
+TNS   : -16.000
+
+Type  : Fast Model Minimum Pulse Width 'badroml:badroml|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'badromr:badromr|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'charliel:charliel|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'charlier:charlier|clkslow'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_A2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_A3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_ASBF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_ASBF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_B2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_B3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_C2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_C3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_CSDF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_CSDF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_D2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_D3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_DSEF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_DSEF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_E2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_E3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_F2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_F3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_FSGF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_FSGF3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_G2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_G3'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_GSAF2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_GSAF3_2'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|clock'
+Slack : -0.500
+TNS   : -9.000
+
+Type  : Fast Model Minimum Pulse Width 'sine_wave_synthesizer:sinsnd|clk_1Hz'
+Slack : -0.500
+TNS   : -8.000
+
+Type  : Fast Model Minimum Pulse Width 'audio_clock:u4|oAUD_BCK'
+Slack : -0.500
+TNS   : -4.000
+
+Type  : Fast Model Minimum Pulse Width 'testkeyboard:keyboard_input|keyboard:kbd|ready_set'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_27'
+Slack : 18.518
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'p1|altpll_component|pll|clk[0]'
+Slack : 18.841
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'p1|altpll_component|pll|clk[1]'
+Slack : 26.777
+TNS   : 0.000
+
+------------------------------------------------------------
