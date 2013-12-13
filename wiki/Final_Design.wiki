@@ -24,7 +24,7 @@ Next the sine wave was broken up into the 36 different frequencies as well. This
 
 *Key board*
 
-Since we decided to use the keyboard as our input for this project, how to let the keyboard to talk to the DE2 board is the kay problem. However, there are some sources in the johnloomis website we found are very useful. We used his code to let the DE2 board get the input from keyboard. The works we did is to connect the keyboard input with audio module and monitor (see below). We hard coded to tell the DE2 board what the output should be when one key on the keyboard is pressed.
+Since we decided to use the keyboard as our input for this project, how to let the keyboard to talk to the DE2 board is the kay problem. However, there are some sources in the johnloomis website we found are very useful(http://www.johnloomis.org/digitallab/ps2lab1/ps2lab1.html). We used his code to let the DE2 board get the input from keyboard. The works we did is to connect the keyboard input with audio module and monitor (see below). We hard coded to tell the DE2 board what the output should be when one key on the keyboard is pressed.
 
 *VGA monitor*
 
