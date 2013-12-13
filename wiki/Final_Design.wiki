@@ -1,5 +1,5 @@
 #summary This is an explanation of our design process.
-
+*bold*fjdkalfads
 Up to this point the team has made good progress. The first thing we did was to generate square pulses. This is can be accomplished by using the clock and dividing the 50 Mhz clock frequency into smaller pieces and using this to create waves. This was relatively straightforward and some helpful example code was found at (http://www.johnloomis.org/digitallab/audio/audio2/audio2.qdoc.html) and also a similar project that was done by Aaron Pittenger and Rachel Grady in the fall of 2010.
 
 After creating the waves, the johnloomis code was modified to be used in the audio output. John Loomis does this by using I2C to initialize the audio codec and also a DAC converter to output the sound. I didn't quite understand this part, but it works and that is all that matters.
