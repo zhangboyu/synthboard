@@ -13,3 +13,6 @@ We weren't satisfied with a square wave so we decided to tackle the sine wave ne
 Next the sine wave was broken up into the 36 different frequencies as well. This allows the user to use either a sine or square wave by flipping switch. This was a bit more challenging because it would have to be programmed manually. A similar volume function was added here for the sine function. This took more effort because the values had to be written to a table similar to the first one but was decremented by one half.
 
 The final step here is to implement the display on the monitor. On here we want it to display a piano keyboard. When the user presses a button on the computer keyboard it would show the corresponding key on the monitor. VGA Lab1 by John Loomis was a very helpful reference here for drawing rectangles (http://www.johnloomis.org/digitallab/vgalab/vgalab1/vgalab1.html). 
+
+=Video Demonstration=
+http://www.youtube.com/watch?v=jRVPfyQ-fj4
