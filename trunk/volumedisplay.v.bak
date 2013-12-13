@@ -1,0 +1,14 @@
+module volumedisplay(volume, HEX7);
+input volume;
+output [6:0] HEX7;
+reg HEX7;
+
+always @(*)
+begin
+	if (volume == 1'b1)
+		HEX7 = 7'b0100100;
+	else
+		HEX7 = 7'b1111001;
+end
+
+endmodule
