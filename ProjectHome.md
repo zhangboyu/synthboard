@@ -1,0 +1,1 @@
+In this project we will be using a DE2 board to read in keys from a keyboard and play sounds (like a piano or other synth sounds).
